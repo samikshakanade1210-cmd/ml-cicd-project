@@ -21,4 +21,6 @@ os.makedirs("models", exist_ok=True)
 #Save model
 joblib.dump(model, "models/model.pkl")
 
+#trigger test
+
 print("Model trained and saved successfully!")
